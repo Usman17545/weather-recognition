@@ -35,7 +35,7 @@ The model classifies images into the following 9 categories:
 The dataset contains folders for each weather category with images inside.  
 Due to GitHub file size limits, it is hosted externally:
 
-🔗 [Download Dataset from Google Drive](https://drive.google.com/your-link-here)
+🔗 [Download Dataset from Google Drive](https://drive.google.com/drive/folders/1tvv-oGfF6CeiX7iLQzHhbSEWjnQ1d7H7?usp=sharing)
 
 After downloading, extract it and place the dataset path in your notebook like this:
 ```python
