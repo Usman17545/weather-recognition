@@ -1,5 +1,10 @@
 # 🌦️ Weather Recognition using SVM
 
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1PAGloXg0LQfPnMXMpakQl7ak6x0pQi_H" alt="Weather Recognition Poster" width="300"/>
+</p>
+
+
 This project is a machine learning application that classifies different weather conditions from images using **Support Vector Machines (SVM)**. The model is trained on a custom image dataset with various weather categories and achieves high accuracy through preprocessing, feature scaling, and PCA dimensionality reduction.
 
 ---
