@@ -58,13 +58,3 @@ The model classifies visuals into the following 9 categories:
 - 📊 **Confusion Matrix**, **F1 Score**
 
 ---
-
-## 🔍 Prediction Capabilities
-
-### 🖼️ Image Prediction
-
-Predict weather conditions from static images:
-
-```python
-image_path = 'path/to/image.jpg'
-# Preprocess, resize, normalize, predict
