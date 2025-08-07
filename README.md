@@ -7,9 +7,6 @@
 
 <p align="center">
   <a href="https://drive.google.com/file/d/13MlzIB1xdw02E5LsLJg2_D0Vkn38NWeC/view?usp=sharing" target="_blank">
-    <img src="https://img.youtube.com/vi/0yWZC3bH1Gc/0.jpg" alt="Sample Output Video" width="400"/>
-    <br>
-    🔗 Click here to watch the sample output video on Google Drive
   </a>
 </p>
 
