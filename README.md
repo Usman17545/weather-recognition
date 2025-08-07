@@ -8,8 +8,6 @@
 
 <p align="center">
   <a href="https://drive.google.com/file/d/13MlzIB1xdw02E5LsLJg2_D0Vkn38NWeC/view?usp=sharing" target="_blank">
-    <img src="https://img.icons8.com/clouds/452/video.png" alt="Watch Output Video" width="200"/>
-    <br>
     🔗 Watch Sample Output Video
   </a>
 </p>
