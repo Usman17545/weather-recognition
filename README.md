@@ -1,47 +1,59 @@
-# 🌦️ Weather Recognition using SVM
+# 🌦️ Weather Recognition using Convolutional Neural Networks (CNN)
 
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1PAGloXg0LQfPnMXMpakQl7ak6x0pQi_H" alt="Weather Recognition Poster" width="300"/>
 </p>
 
-
-This project is a machine learning application that classifies different weather conditions from images using **Support Vector Machines (SVM)**. The model is trained on a custom image dataset with various weather categories and achieves high accuracy through preprocessing, feature scaling, and PCA dimensionality reduction.
+This project is a deep learning application that classifies different weather conditions from **images and videos** using a **Convolutional Neural Network (CNN)**. The model is trained on a curated dataset and achieves a test accuracy of **80%**.
 
 ---
 
 ## 📁 Weather Categories
-The model classifies images into the following 9 categories:
 
-- Cloudy  
-- Fog/Smog  
-- Lightning  
-- Rain  
-- Rainbow  
-- Sandstorm  
-- Shine  
-- Snow  
-- Sunrise  
+The model classifies visuals into the following 9 categories:
+
+- ☁️ Cloudy  
+- 🌫️ Fog/Smog  
+- ⚡ Lightning  
+- 🌧️ Rain  
+- 🌈 Rainbow  
+- 🌪️ Sandstorm  
+- ☀️ Shine  
+- ❄️ Snow  
+- 🌅 Sunrise  
 
 ---
 
 ## 🧠 Algorithms and Techniques Used
 
-- **Image Preprocessing:** Resize and flatten to 32×32 pixels  
-- **Feature Scaling:** `StandardScaler` from scikit-learn  
-- **Dimensionality Reduction:** `PCA` (95% variance retained)  
-- **Classification Model:** Support Vector Machine (SVM) with RBF kernel  
-- **Model Evaluation:** Accuracy, Confusion Matrix, F1 Score  
-- **Visualization:** Matplotlib for displaying predictions and external image classification
+### 🖼️ Image Preprocessing
+
+- Resized all images to **64×64 pixels**
+- Normalized pixel values (`/255.0`)
+- Removed **noisy and irrelevant images**
+- Addressed **class imbalance** for better performance
+
+### 🧱 CNN Architecture
+
+- Multiple **Conv2D** layers with `ReLU` activation
+- **MaxPooling2D** layers to reduce dimensions
+- **Dropout** layers to prevent overfitting
+- **Flatten** and **Dense** layers for classification
+- Final **Softmax** layer with 9 output neurons
+
+### 🧪 Evaluation
+
+- ✅ **Test Accuracy:** 80%  
+- 📊 **Confusion Matrix**, **F1 Score**
 
 ---
 
-## 📂 Dataset
+## 🔍 Prediction Capabilities
 
-The dataset contains folders for each weather category with images inside.  
-Due to GitHub file size limits, it is hosted externally:
+### 🖼️ Image Prediction
 
-🔗 [Download Dataset from Google Drive](https://drive.google.com/drive/folders/1tvv-oGfF6CeiX7iLQzHhbSEWjnQ1d7H7?usp=sharing)
+Predict weather conditions from static images:
 
-After downloading, extract it and place the dataset path in your notebook like this:
 ```python
-data_dir = 'path/to/your/dataset'
+image_path = 'path/to/image.jpg'
+# Preprocess, resize, normalize, predict
