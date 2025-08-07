@@ -3,12 +3,18 @@
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1PAGloXg0LQfPnMXMpakQl7ak6x0pQi_H" alt="Weather Recognition Poster" width="300"/>
 </p>
+
 ## 📽️ Sample Output Video
 
 <p align="center">
   <a href="https://drive.google.com/file/d/13MlzIB1xdw02E5LsLJg2_D0Vkn38NWeC/view?usp=sharing" target="_blank">
+    <img src="https://img.icons8.com/clouds/452/video.png" alt="Watch Output Video" width="200"/>
+    <br>
+    🔗 Click here to watch the sample output video on Google Drive
   </a>
 </p>
+
+---
 
 This project is a deep learning application that classifies different weather conditions from **images and videos** using a **Convolutional Neural Network (CNN)**. The model is trained on a curated dataset and achieves a test accuracy of **80%**.
 
